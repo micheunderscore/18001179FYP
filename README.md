@@ -1,5 +1,5 @@
 <h3 align="left">Welcome to my</h3>
-<h1 align="center">Final Year Project</h1>
+<h1 align="center">🎆 Final Year Project 🎆</h1>
 <h3 align="right">Repository</h3>
 
 ## 📑 Description
