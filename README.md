@@ -4,10 +4,11 @@
 
 ## 📑 Description
 
-This is the repository for my final year project titled:
+This is the official repository for my final year project titled:
 ```
 Adaptable Adversary Behavior For Game Of Tag Based On Player Behavior Using Machine Learning
 ```
+Project Supervisor: **Dr. Said Jadid Abdulkadir**
 <br/>
 
 ## 🖼 Contents
