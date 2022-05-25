@@ -4,7 +4,10 @@
 
 ## 📑 Description
 
-This is the repository for my final year project!
+This is the repository for my final year project titled:
+```
+Adaptable Adversary Behavior For Game Of Tag Based On Player Behavior Using Machine Learning
+```
 <br/>
 
 ## 🖼 Contents
