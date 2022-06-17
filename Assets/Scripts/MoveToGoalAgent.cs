@@ -12,8 +12,8 @@ public class MoveToGoalAgent : Agent {
     [SerializeField] private MeshRenderer floorMeshRenderer;
 
     public override void OnEpisodeBegin() {
-        transform.localPosition = new Vector3(Random.Range(-4f, 4f), 0.5f, Random.Range(-4f, -0.5f));
-        targetTransform.localPosition = new Vector3(Random.Range(-4f, 4f), 0.5f, Random.Range(0.5f, 4f));
+        transform.localPosition = new Vector3(Random.Range(-4f, 4f), 0.125f, Random.Range(-4f, -0.5f));
+        targetTransform.localPosition = new Vector3(Random.Range(-4f, 4f), 0.125f, Random.Range(0.5f, 4f));
     }
     public override void CollectObservations(VectorSensor sensor) {
         sensor.AddObservation(transform.localPosition);
@@ -24,12 +24,6 @@ public class MoveToGoalAgent : Agent {
         float moveZ = actions.ContinuousActions[1];
 
         transform.localPosition += new Vector3(moveX, 0f, moveZ) * Time.deltaTime * moveSpeed;
-    }
-
-    public override void Heuristic(in ActionBuffers actionsOut) {
-        ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
-        continuousActions[0] = Input.GetAxisRaw("Horizontal");
-        continuousActions[1] = Input.GetAxisRaw("Vertical");
     }
 
     public void OnTriggerEnter(Collider other) {
@@ -44,5 +38,12 @@ public class MoveToGoalAgent : Agent {
             floorMeshRenderer.material = loseMaterial;
             EndEpisode();
         }
+    }
+
+    // Heuristics testing
+    public override void Heuristic(in ActionBuffers actionsOut) {
+        ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
+        continuousActions[0] = Input.GetAxisRaw("Horizontal");
+        continuousActions[1] = Input.GetAxisRaw("Vertical");
     }
 }
