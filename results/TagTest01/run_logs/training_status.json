@@ -1,24 +1,24 @@
 {
     "MPTagAgent": {
-        "elo": 1200.0,
+        "elo": 1038.905850501475,
         "checkpoints": [
             {
-                "steps": 5800,
-                "file_path": "results\\TagTest01\\MPTagAgent\\MPTagAgent-5800.onnx",
-                "reward": 270.9638037846006,
-                "creation_time": 1655983105.1628351,
+                "steps": 415909,
+                "file_path": "results\\TagTest01\\MPTagAgent\\MPTagAgent-415909.onnx",
+                "reward": 215.8925835745675,
+                "creation_time": 1655986898.8598409,
                 "auxillary_file_paths": [
-                    "results\\TagTest01\\MPTagAgent\\MPTagAgent-5800.pt"
+                    "results\\TagTest01\\MPTagAgent\\MPTagAgent-415909.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 5800,
+            "steps": 415909,
             "file_path": "results\\TagTest01\\MPTagAgent.onnx",
-            "reward": 270.9638037846006,
-            "creation_time": 1655983105.1628351,
+            "reward": 215.8925835745675,
+            "creation_time": 1655986898.8598409,
             "auxillary_file_paths": [
-                "results\\TagTest01\\MPTagAgent\\MPTagAgent-5800.pt"
+                "results\\TagTest01\\MPTagAgent\\MPTagAgent-415909.pt"
             ]
         }
     },

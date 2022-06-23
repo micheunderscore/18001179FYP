@@ -20,8 +20,6 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private float crouchHeight = 0.6f;
     // MOUSE
 
-    // vvv DEBUG STUFF REMEMBER TO REMOVE vvv
-    private string[] debug = new string[100];
     private void Start() {
         Cursor.lockState = CursorLockMode.Locked;
         controller = GetComponent<CharacterController>();
@@ -63,27 +61,5 @@ public class PlayerMovement : MonoBehaviour {
 
         // Crouching
         transform.localScale = new Vector3(transform.localScale.x, _playerController.crouchInput ? crouchHeight : charHeight, transform.localScale.y);
-
-
-        // DEBUG ================================================================================================
-        // TODO: REMOVE THIS DEBUG 
-        debug[0] = $"Mouse\t: {mouseX}, {mouseY}";
-        debug[1] = $"Head\t: {playerCamera.localRotation}";
-        debug[2] = $"Axis Move\t: {_playerController.xInput}, {_playerController.zInput}";
-        debug[3] = $"Crouch Button\t: {_playerController.crouchInput}";
-        // debug[3] = $"Transform\t: {body.velocity}";
-    }
-
-    void OnGUI() {
-        GUI.Label(
-           new Rect(
-               5,                   // x, left offset
-               Screen.height - 150, // y, bottom offset
-               300f,                // width
-               150f                 // height
-           ),
-           string.Join("\n", debug),    // the display text
-           GUI.skin.textArea            // use a multi-line text area
-        );
     }
 }

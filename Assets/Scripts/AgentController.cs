@@ -14,11 +14,21 @@ public class AgentController : Agent {
     public void Update() {
         float distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
 
-        if (gameState.tagged != targetTransform.tag) {
-            AddReward(distance);
-        } else if (gameState.tagged == transform.tag) {
-            AddReward(-distance);
+        // Reset sides and give head start
+        if (gameState.serveReward) {
+            SetReward(0f);
+            AddReward(gameState.tagged != transform.tag ? +gameState.rewardAmt : -gameState.punishAmt);
         }
+
+        // Reward/Punishment distribution
+        AddReward(distance * (gameState.tagged != transform.tag ? +1f : -1f) * gameState.distanceMod);
+
+        // Toggle once sides have been changed
+        if (gameState.serveReward) {
+            gameState.ServedReward();
+        }
+
+        Debug.Log($"{transform.name} Rewards: {GetCumulativeReward()}");
     }
 
     public override void OnEpisodeBegin() {
@@ -28,6 +38,7 @@ public class AgentController : Agent {
     public override void CollectObservations(VectorSensor sensor) {
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(targetTransform.localPosition);
+        sensor.AddObservation(gameState.tagged == transform.tag ? 1f : 0f);
     }
 
     public override void OnActionReceived(ActionBuffers actions) {
@@ -42,7 +53,7 @@ public class AgentController : Agent {
     public void OnControllerColliderHit(ControllerColliderHit other) {
         Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall") {
-            AddReward(-100f);
+            AddReward(-gameState.punishAmt);
             EndEpisode();
         }
     }
