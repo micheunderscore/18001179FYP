@@ -28,7 +28,7 @@ public class AgentController : Agent {
             gameState.ServedReward();
         }
 
-        Debug.Log($"{transform.name} Rewards: {GetCumulativeReward()}");
+        // Debug.Log($"{transform.name} Rewards: {GetCumulativeReward()}");
     }
 
     public override void OnEpisodeBegin() {
@@ -37,7 +37,9 @@ public class AgentController : Agent {
 
     public override void CollectObservations(VectorSensor sensor) {
         sensor.AddObservation(transform.localPosition);
+        sensor.AddObservation(transform.localRotation);
         sensor.AddObservation(targetTransform.localPosition);
+        sensor.AddObservation(targetTransform.localRotation);
         sensor.AddObservation(gameState.tagged == transform.tag ? 1f : 0f);
     }
 
@@ -51,7 +53,7 @@ public class AgentController : Agent {
     }
 
     public void OnControllerColliderHit(ControllerColliderHit other) {
-        Debug.Log($"{transform.tag} touched {other.transform.tag}");
+        // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall") {
             AddReward(-gameState.punishAmt);
             EndEpisode();
