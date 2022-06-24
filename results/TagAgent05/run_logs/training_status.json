@@ -1,0 +1,38 @@
+{
+    "TagAgent": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results\\TagAgent05\\TagAgent\\TagAgent-499962.onnx",
+                "reward": -2.7097910307347775,
+                "creation_time": 1656053833.7494154,
+                "auxillary_file_paths": [
+                    "results\\TagAgent05\\TagAgent\\TagAgent-499962.pt"
+                ]
+            },
+            {
+                "steps": 999990,
+                "file_path": "results\\TagAgent05\\TagAgent\\TagAgent-999990.onnx",
+                "reward": null,
+                "creation_time": 1656056768.0901241,
+                "auxillary_file_paths": [
+                    "results\\TagAgent05\\TagAgent\\TagAgent-999990.pt"
+                ]
+            },
+            {
+                "steps": 1499941,
+                "file_path": "results\\TagAgent05\\TagAgent\\TagAgent-1499941.onnx",
+                "reward": -2.795896142721176,
+                "creation_time": 1656059693.9168692,
+                "auxillary_file_paths": [
+                    "results\\TagAgent05\\TagAgent\\TagAgent-1499941.pt"
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

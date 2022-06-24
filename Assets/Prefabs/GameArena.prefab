@@ -1360,13 +1360,24 @@ MonoBehaviour:
   arenaSize: 5
   rewardAmt: 100
   punishAmt: 100
-  distanceMod: 0.05
+  distanceMod: 0.01
   tagged: 
   serveReward: 0
   playerOne: {fileID: 3410226382199209528}
-  playerTwo: {fileID: 0}
+  playerTwo: {fileID: 4388117778755735299}
   matOne: {fileID: 2100000, guid: 0a39addd95a21e94582b46ba85873cf5, type: 2}
   matTwo: {fileID: 2100000, guid: f71e1187721e450439f2f725235d0d1f, type: 2}
+  debug:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &3405650194410515769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,6 +1446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332bc2d01b15de54a8213780ca050d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGronded: 0
+  jumped: 0
   grondMask:
     serializedVersion: 2
     m_Bits: 128
@@ -1442,10 +1455,11 @@ MonoBehaviour:
   grondCheck: {fileID: 3405650193202812022}
   _playerController: {fileID: 3405650194410515749}
   gravity: -9.81
-  gravMod: 3
+  gravMod: 1
   grondDist: 0.2
   speed: 12
-  jumpHeight: 1
+  jumpHeight: 4
+  jumpDelay: 1
   mouseSens: 200
   crouchMod: 0.25
   crouchHeight: 0.6
@@ -1487,7 +1501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 15
-    NumStackedVectorObservations: 1
+    NumStackedVectorObservations: 3
     m_ActionSpec:
       m_NumContinuousActions: 4
       BranchSizes: 0200000002000000
@@ -1833,7 +1847,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3405927663917397055}
-  m_LocalRotation: {x: -0.99518645, y: 0.09799981, z: 0, w: 0}
+  m_LocalRotation: {x: -0.9961947, y: 0.08715578, z: 0, w: 0}
   m_LocalPosition: {x: -18.151169, y: 1.5543122e-15, z: -7.1010728e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1841,7 +1855,7 @@ Transform:
   - {fileID: 3410226382199209529}
   m_Father: {fileID: 3408109693142716715}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 11.248001}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 10}
 --- !u!1 &3405950105982137189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3902,7 +3916,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5834596097121886962}
-  m_LocalRotation: {x: -0.99518645, y: 0.09799981, z: 0, w: 0}
+  m_LocalRotation: {x: -0.9961947, y: 0.08715578, z: 0, w: 0}
   m_LocalPosition: {x: -18.151169, y: 1.5543122e-15, z: -7.1010728e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3910,7 +3924,7 @@ Transform:
   - {fileID: 8040648936134460653}
   m_Father: {fileID: 4310539906050791111}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 11.248001}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 10}
 --- !u!1 &5844095272752228963
 GameObject:
   m_ObjectHideFlags: 0

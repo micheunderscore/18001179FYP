@@ -11,27 +11,31 @@ public class AgentController : Agent {
     [SerializeField] private GameManager gameState;
     [SerializeField] private Transform targetTransform;
 
+
     public void Update() {
         float distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
+        bool isTagged = gameState.tagged == transform.tag;
 
+        // gameState.debug[0] = $"{transform.name} Rewards: {GetCumulativeReward()}";
+
+        // Debug.Log($"Served Reward? : {gameState.serveReward}");
         // Reset sides and give head start
         if (gameState.serveReward) {
-            SetReward(0f);
-            AddReward(gameState.tagged != transform.tag ? +gameState.rewardAmt : -gameState.punishAmt);
-        }
-
-        // Reward/Punishment distribution
-        AddReward(distance * (gameState.tagged != transform.tag ? +1f : -1f) * gameState.distanceMod);
-
-        // Toggle once sides have been changed
-        if (gameState.serveReward) {
+            float rewardReset = -GetCumulativeReward();
+            float rewardSet = !isTagged ? +gameState.rewardAmt : -gameState.punishAmt;
+            AddReward(rewardReset + rewardSet);
+            // gameState.debug[2] = $"Spec Reward : {rewardReset} + {rewardSet}";
             gameState.ServedReward();
+            EndEpisode();
+        } else {
+            // Reward/Punishment distribution
+            AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
+            // gameState.debug[1] = $"Reward : {(distance * (isTagged ? -1f : +1f) * gameState.distanceMod)}";
         }
-
-        // Debug.Log($"{transform.name} Rewards: {GetCumulativeReward()}");
     }
 
     public override void OnEpisodeBegin() {
+        SetReward(0f);
         gameState.RestartGame();
     }
 
@@ -55,7 +59,7 @@ public class AgentController : Agent {
     public void OnControllerColliderHit(ControllerColliderHit other) {
         // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall") {
-            AddReward(-gameState.punishAmt);
+            SetReward(-gameState.punishAmt);
             EndEpisode();
         }
     }

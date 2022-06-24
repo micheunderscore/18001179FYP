@@ -2,22 +2,58 @@
     "TagAgent": {
         "checkpoints": [
             {
-                "steps": 102279,
-                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-102279.onnx",
+                "steps": 999983,
+                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-999983.onnx",
                 "reward": null,
-                "creation_time": 1656000596.1244934,
+                "creation_time": 1656008269.0411308,
                 "auxillary_file_paths": [
-                    "results\\TagTest03\\TagAgent\\TagAgent-102279.pt"
+                    "results\\TagTest03\\TagAgent\\TagAgent-999983.pt"
+                ]
+            },
+            {
+                "steps": 1499963,
+                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-1499963.onnx",
+                "reward": null,
+                "creation_time": 1656011049.2131374,
+                "auxillary_file_paths": [
+                    "results\\TagTest03\\TagAgent\\TagAgent-1499963.pt"
+                ]
+            },
+            {
+                "steps": 1999946,
+                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-1999946.onnx",
+                "reward": -4.317454054951668,
+                "creation_time": 1656013822.7866473,
+                "auxillary_file_paths": [
+                    "results\\TagTest03\\TagAgent\\TagAgent-1999946.pt"
+                ]
+            },
+            {
+                "steps": 2499964,
+                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-2499964.onnx",
+                "reward": null,
+                "creation_time": 1656016588.9195635,
+                "auxillary_file_paths": [
+                    "results\\TagTest03\\TagAgent\\TagAgent-2499964.pt"
+                ]
+            },
+            {
+                "steps": 2999992,
+                "file_path": "results\\TagTest03\\TagAgent\\TagAgent-2999992.onnx",
+                "reward": null,
+                "creation_time": 1656019364.4188187,
+                "auxillary_file_paths": [
+                    "results\\TagTest03\\TagAgent\\TagAgent-2999992.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 102279,
+            "steps": 500025,
             "file_path": "results\\TagTest03\\TagAgent.onnx",
             "reward": null,
-            "creation_time": 1656000596.1244934,
+            "creation_time": 1656005376.9849546,
             "auxillary_file_paths": [
-                "results\\TagTest03\\TagAgent\\TagAgent-102279.pt"
+                "results\\TagTest03\\TagAgent\\TagAgent-500025.pt"
             ]
         }
     },
