@@ -49,11 +49,11 @@ public class AgentController : Agent {
 
     public override void OnActionReceived(ActionBuffers actions) {
         mouseInputX = actions.ContinuousActions[0] * Time.deltaTime;
-        mouseInputY = actions.ContinuousActions[1] * Time.deltaTime;
-        xInput = actions.ContinuousActions[2];
-        zInput = actions.ContinuousActions[3];
-        jumpInput = actions.DiscreteActions[0] == 1;
-        crouchInput = actions.DiscreteActions[1] == 1;
+        xInput = actions.ContinuousActions[1];
+        zInput = actions.ContinuousActions[2];
+        // mouseInputY = actions.ContinuousActions[3] * Time.deltaTime;
+        crouchInput = actions.DiscreteActions[0] == 1;
+        // jumpInput = actions.DiscreteActions[1] == 1;
     }
 
     public void OnControllerColliderHit(ControllerColliderHit other) {
@@ -69,10 +69,10 @@ public class AgentController : Agent {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
         ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
         continuousActions[0] = Input.GetAxis("Mouse X");
-        continuousActions[1] = Input.GetAxis("Mouse Y");
-        continuousActions[2] = Input.GetAxisRaw("Horizontal");
-        continuousActions[3] = Input.GetAxisRaw("Vertical");
-        discreteActions[0] = Input.GetButton("Jump") ? 1 : 0;
-        discreteActions[1] = Input.GetButton("Crouch") ? 1 : 0;
+        continuousActions[1] = Input.GetAxisRaw("Horizontal");
+        continuousActions[2] = Input.GetAxisRaw("Vertical");
+        // continuousActions[3] = Input.GetAxis("Mouse Y");
+        discreteActions[0] = Input.GetButton("Crouch") ? 1 : 0;
+        // discreteActions[1] = Input.GetButton("Jump") ? 1 : 0;
     }
 }

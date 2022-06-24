@@ -1365,6 +1365,8 @@ MonoBehaviour:
   serveReward: 0
   playerOne: {fileID: 3410226382199209528}
   playerTwo: {fileID: 4388117778755735299}
+  p1Control: {fileID: 0}
+  p2Control: {fileID: 0}
   matOne: {fileID: 2100000, guid: 0a39addd95a21e94582b46ba85873cf5, type: 2}
   matTwo: {fileID: 2100000, guid: f71e1187721e450439f2f725235d0d1f, type: 2}
   debug:
@@ -1446,6 +1448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332bc2d01b15de54a8213780ca050d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xRotation: 0
   isGronded: 0
   jumped: 0
   grondMask:
@@ -1501,10 +1504,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 15
-    NumStackedVectorObservations: 3
+    NumStackedVectorObservations: 1
     m_ActionSpec:
-      m_NumContinuousActions: 4
-      BranchSizes: 0200000002000000
+      m_NumContinuousActions: 3
+      BranchSizes: 02000000
     VectorActionSize: 
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
