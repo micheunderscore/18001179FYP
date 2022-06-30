@@ -25,13 +25,13 @@ public class GameManager : MonoBehaviour {
         players[1].TryGetComponent<PlayerMovement>(out p2Control);
     }
 
-    public void Update() {
-        if (tagged == players[0].tag) {
-            floor.material = matOne;
-        } else if (tagged == players[1].tag) {
-            floor.material = matTwo;
-        }
-    }
+    // public void Update() {
+    //     if (tagged == players[0].tag) {
+    //         floor.material = matOne;
+    //     } else if (tagged == players[1].tag) {
+    //         floor.material = matTwo;
+    //     }
+    // }
 
     public void RestartGame() {
         tagged = players[0].tag;
@@ -58,6 +58,11 @@ public class GameManager : MonoBehaviour {
 
     public void ServedReward() {
         serveReward = false;
+        floor.material = matTwo;
+    }
+
+    public void ResetFloor() {
+        floor.material = matOne;
     }
 
     // void OnGUI() {

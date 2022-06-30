@@ -1358,7 +1358,7 @@ MonoBehaviour:
   - {fileID: 5888710903543541192}
   floor: {fileID: 3405650195022946787}
   arenaSize: 5
-  rewardAmt: 100
+  rewardAmt: 0
   punishAmt: 100
   distanceMod: 0.01
   tagged: 
@@ -1507,10 +1507,10 @@ MonoBehaviour:
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 3
-      BranchSizes: 02000000
-    VectorActionSize: 
+      BranchSizes: 
+    VectorActionSize: 03000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 0
+    VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
   m_InferenceDevice: 0

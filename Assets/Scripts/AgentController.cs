@@ -60,6 +60,7 @@ public class AgentController : Agent {
         // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall") {
             SetReward(-gameState.punishAmt);
+            gameState.ResetFloor();
             EndEpisode();
         }
     }
