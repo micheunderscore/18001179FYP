@@ -52,7 +52,7 @@ public class AgentController : Agent {
         xInput = actions.ContinuousActions[1];
         zInput = actions.ContinuousActions[2];
         // mouseInputY = actions.ContinuousActions[3] * Time.deltaTime;
-        crouchInput = actions.DiscreteActions[0] == 1;
+        // crouchInput = actions.DiscreteActions[0] == 1;
         // jumpInput = actions.DiscreteActions[1] == 1;
     }
 
@@ -67,12 +67,12 @@ public class AgentController : Agent {
     // Heuristics testing
     public override void Heuristic(in ActionBuffers actionsOut) {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
-        ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
+        // ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
         continuousActions[0] = Input.GetAxis("Mouse X");
         continuousActions[1] = Input.GetAxisRaw("Horizontal");
         continuousActions[2] = Input.GetAxisRaw("Vertical");
         // continuousActions[3] = Input.GetAxis("Mouse Y");
-        discreteActions[0] = Input.GetButton("Crouch") ? 1 : 0;
+        // discreteActions[0] = Input.GetButton("Crouch") ? 1 : 0;
         // discreteActions[1] = Input.GetButton("Jump") ? 1 : 0;
     }
 }
