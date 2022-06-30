@@ -1358,7 +1358,7 @@ MonoBehaviour:
   - {fileID: 5888710903543541192}
   floor: {fileID: 3405650195022946787}
   arenaSize: 5
-  rewardAmt: 0
+  rewardAmt: 10
   punishAmt: 100
   distanceMod: 0.01
   tagged: 
