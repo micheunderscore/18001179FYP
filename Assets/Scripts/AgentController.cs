@@ -6,17 +6,17 @@ using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 
 public class AgentController : Agent {
-    public float mouseInputX, mouseInputY, xInput, zInput;
+    public float mouseInputX, mouseInputY, xInput, zInput, rewardThreshold;
     public bool crouchInput, jumpInput;
     [SerializeField] private GameManager gameState;
     [SerializeField] private Transform targetTransform;
 
 
-    public void Update() {
+    public void FixedUpdate() {
         float distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
         bool isTagged = gameState.tagged == transform.tag;
 
-        // gameState.debug[0] = $"{transform.name} Rewards: {GetCumulativeReward()}";
+        gameState.debug[0] = $"{transform.name} Rewards: {GetCumulativeReward()}";
 
         // Debug.Log($"Served Reward? : {gameState.serveReward}");
         // Reset sides and give head start
@@ -26,12 +26,13 @@ public class AgentController : Agent {
             AddReward(rewardReset + rewardSet);
             // gameState.debug[2] = $"Spec Reward : {rewardReset} + {rewardSet}";
             gameState.ServedReward();
-            EndEpisode();
         } else {
             // Reward/Punishment distribution
             AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
             // gameState.debug[1] = $"Reward : {(distance * (isTagged ? -1f : +1f) * gameState.distanceMod)}";
         }
+
+        if (GetCumulativeReward() > rewardThreshold) EndEpisode();
     }
 
     public override void OnEpisodeBegin() {
@@ -49,8 +50,8 @@ public class AgentController : Agent {
 
     public override void OnActionReceived(ActionBuffers actions) {
         mouseInputX = actions.ContinuousActions[0] * Time.deltaTime;
-        xInput = actions.ContinuousActions[1];
-        zInput = actions.ContinuousActions[2];
+        zInput = actions.ContinuousActions[1];
+        xInput = actions.ContinuousActions[2];
         // mouseInputY = actions.ContinuousActions[3] * Time.deltaTime;
         // crouchInput = actions.DiscreteActions[0] == 1;
         // jumpInput = actions.DiscreteActions[1] == 1;
@@ -70,8 +71,8 @@ public class AgentController : Agent {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
         // ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
         continuousActions[0] = Input.GetAxis("Mouse X");
-        continuousActions[1] = Input.GetAxisRaw("Horizontal");
-        continuousActions[2] = Input.GetAxisRaw("Vertical");
+        continuousActions[1] = Input.GetAxisRaw("Vertical");
+        continuousActions[2] = Input.GetAxisRaw("Horizontal");
         // continuousActions[3] = Input.GetAxis("Mouse Y");
         // discreteActions[0] = Input.GetButton("Crouch") ? 1 : 0;
         // discreteActions[1] = Input.GetButton("Jump") ? 1 : 0;
