@@ -1,0 +1,65 @@
+{
+    "TagAgentPlus": {
+        "checkpoints": [
+            {
+                "steps": 6999790,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-6999790.onnx",
+                "reward": 461.28352813720704,
+                "creation_time": 1657012633.9991744,
+                "auxillary_file_paths": [
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-6999790.pt"
+                ]
+            },
+            {
+                "steps": 7499519,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7499519.onnx",
+                "reward": 376.2093663215637,
+                "creation_time": 1657013049.670822,
+                "auxillary_file_paths": [
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7499519.pt"
+                ]
+            },
+            {
+                "steps": 7999851,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7999851.onnx",
+                "reward": 478.79625302269346,
+                "creation_time": 1657013464.794714,
+                "auxillary_file_paths": [
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7999851.pt"
+                ]
+            },
+            {
+                "steps": 8499749,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8499749.onnx",
+                "reward": 438.14429297814,
+                "creation_time": 1657013888.3731499,
+                "auxillary_file_paths": [
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8499749.pt"
+                ]
+            },
+            {
+                "steps": 8565898,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.onnx",
+                "reward": 452.4314662388393,
+                "creation_time": 1657013954.5540903,
+                "auxillary_file_paths": [
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8565898,
+            "file_path": "results\\TagAgent02\\TagAgentPlus.onnx",
+            "reward": 452.4314662388393,
+            "creation_time": 1657013954.5540903,
+            "auxillary_file_paths": [
+                "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -134,9 +134,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -196,9 +200,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -256,11 +264,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (23)
+      value: GameArena (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -318,11 +330,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (25)
+      value: GameArena (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -382,9 +398,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -442,11 +462,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (12)
+      value: GameArena (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -504,11 +528,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (10)
+      value: GameArena (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -566,11 +594,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (28)
+      value: GameArena (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,9 +662,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -690,11 +726,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (20)
+      value: GameArena (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -754,9 +794,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -814,11 +858,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (14)
+      value: GameArena (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -876,11 +924,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (31)
+      value: GameArena (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -938,11 +990,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (9)
+      value: GameArena (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1000,11 +1056,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (13)
+      value: GameArena (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1064,9 +1124,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1174,12 +1238,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226632255}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.4611828, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1308684802}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &227491636
@@ -1193,9 +1257,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1255,9 +1323,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1315,11 +1387,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (19)
+      value: GameArena (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1377,11 +1453,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (30)
+      value: GameArena (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1507,7 +1587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376177118}
   m_LocalRotation: {x: 0.70710665, y: -0, z: -0, w: 0.70710695}
-  m_LocalPosition: {x: 0, y: 33.789463, z: 0.0000037252903}
+  m_LocalPosition: {x: 0, y: 33.789463, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1525,9 +1605,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1587,9 +1671,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1638,6 +1726,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
   m_PrefabInstance: {fileID: 383200537}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &416405371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416405373}
+  - component: {fileID: 416405372}
+  m_Layer: 0
+  m_Name: Debugger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &416405372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416405371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521ac38bb2e8d1e438dc6feba39a27b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: []
+  meanBank:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!4 &416405373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416405371}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1308684802}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &427554792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1649,9 +1864,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1715,7 +1934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &430502745
 Transform:
   m_ObjectHideFlags: 0
@@ -1723,15 +1942,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430502744}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.4611828, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 668348937}
   - {fileID: 376177121}
   - {fileID: 513067153}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1308684802}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466141061
@@ -1745,9 +1964,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1807,9 +2030,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1874,9 +2101,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1936,9 +2167,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2098,11 +2333,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (29)
+      value: GameArena (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2238,11 +2477,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 12.04, z: 0}
+  m_LocalPosition: {x: 0, y: 9.578817, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1308684802}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &736000300
@@ -2256,9 +2495,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2318,9 +2561,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2454,11 +2701,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (22)
+      value: GameArena (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2518,9 +2769,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2580,9 +2835,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2631,90 +2890,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
   m_PrefabInstance: {fileID: 879863394}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &886060881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 886060884}
-  - component: {fileID: 886060883}
-  - component: {fileID: 886060882}
-  m_Layer: 0
-  m_Name: Top View
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &886060882
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886060881}
-  m_Enabled: 0
---- !u!20 &886060883
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886060881}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 62
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &886060884
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886060881}
-  m_LocalRotation: {x: 0.7071125, y: -0.000011296476, z: 0.000011331134, w: 0.7071011}
-  m_LocalPosition: {x: 0, y: 248.40672, z: 0.00002931899}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1097216234}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990474363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2726,9 +2901,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2788,9 +2967,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2850,9 +3033,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2910,11 +3097,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (11)
+      value: GameArena (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2972,6 +3163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097216234}
+  - component: {fileID: 1097216235}
   m_Layer: 0
   m_Name: AllMedTraining
   m_TagString: Untagged
@@ -2979,19 +3171,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1097216234
-Transform:
+--- !u!224 &1097216234
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097216233}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 14.53297}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 886060884}
   - {fileID: 1238559026}
   - {fileID: 778584014}
   - {fileID: 1223629047}
@@ -3028,6 +3219,23 @@ Transform:
   - {fileID: 1859886937}
   - {fileID: 2013516118}
   - {fileID: 1334440797}
+  - {fileID: 1737218793}
+  - {fileID: 1450767842}
+  - {fileID: 1450710121}
+  - {fileID: 238492572}
+  - {fileID: 1245671330}
+  - {fileID: 1813873582}
+  - {fileID: 736000301}
+  - {fileID: 1992708429}
+  - {fileID: 2074846715}
+  - {fileID: 10019730}
+  - {fileID: 606026588}
+  - {fileID: 2143177673}
+  - {fileID: 574303847}
+  - {fileID: 1449021367}
+  - {fileID: 1124528866}
+  - {fileID: 2006289890}
+  - {fileID: 1813391809}
   - {fileID: 174998354}
   - {fileID: 36872067}
   - {fileID: 1083106927}
@@ -3055,27 +3263,35 @@ Transform:
   - {fileID: 1457346985}
   - {fileID: 1201367880}
   - {fileID: 1373040194}
-  - {fileID: 1737218793}
-  - {fileID: 1450767842}
-  - {fileID: 1450710121}
-  - {fileID: 238492572}
-  - {fileID: 1245671330}
-  - {fileID: 1813873582}
-  - {fileID: 736000301}
-  - {fileID: 1992708429}
-  - {fileID: 2074846715}
-  - {fileID: 10019730}
-  - {fileID: 606026588}
-  - {fileID: 2143177673}
-  - {fileID: 574303847}
-  - {fileID: 1449021367}
-  - {fileID: 2006289890}
-  - {fileID: 1813391809}
-  - {fileID: 1124528866}
   - {fileID: 1880763924}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1480325448}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 96.48705, y: -11.655082}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1097216235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097216233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1001 &1119399290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3087,9 +3303,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3149,9 +3369,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3209,11 +3433,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (32)
+      value: GameArena (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3273,9 +3501,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3335,9 +3567,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3397,9 +3633,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3459,9 +3699,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3519,11 +3763,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (21)
+      value: GameArena (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3583,9 +3831,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3719,11 +3971,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (16)
+      value: GameArena (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3772,6 +4028,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
   m_PrefabInstance: {fileID: 1306626760}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1308684801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308684802}
+  m_Layer: 0
+  m_Name: Everything
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308684802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308684801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.4611828, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 705507995}
+  - {fileID: 226632258}
+  - {fileID: 430502745}
+  - {fileID: 416405373}
+  - {fileID: 1480325448}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1311463358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3783,9 +4075,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3834,6 +4130,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
   m_PrefabInstance: {fileID: 1311463358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1315781749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315781750}
+  - component: {fileID: 1315781752}
+  - component: {fileID: 1315781751}
+  m_Layer: 0
+  m_Name: Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1315781750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315781749}
+  m_LocalRotation: {x: 0.7071085, y: 0.00000009767247, z: -0.00000010266923, w: 0.70710504}
+  m_LocalPosition: {x: 96.48706, y: 187.34445, z: 14.532994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1480325448}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1315781751
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315781749}
+  m_Enabled: 0
+--- !u!20 &1315781752
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315781749}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 62
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &1317117938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3843,11 +4223,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (15)
+      value: GameArena (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3907,9 +4291,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3967,11 +4355,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (35)
+      value: GameArena (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4031,9 +4423,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4093,9 +4489,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4155,9 +4555,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4215,11 +4619,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (34)
+      value: GameArena (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4268,6 +4676,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
   m_PrefabInstance: {fileID: 1457346984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1480325447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480325448}
+  m_Layer: 0
+  m_Name: Training
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1480325448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480325447}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96.48705, y: 9.193899, z: -14.53297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1315781750}
+  - {fileID: 1097216234}
+  m_Father: {fileID: 1308684802}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1507974349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4279,9 +4720,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4341,9 +4786,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4401,11 +4850,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (27)
+      value: GameArena (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4465,9 +4918,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4525,11 +4982,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (24)
+      value: GameArena (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4587,11 +5048,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (18)
+      value: GameArena (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4651,9 +5116,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4713,9 +5182,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4775,9 +5248,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4837,9 +5314,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4899,9 +5380,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4961,9 +5446,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5023,9 +5512,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5083,11 +5576,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (33)
+      value: GameArena (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5145,11 +5642,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (53)
+      value: GameArena (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5209,9 +5710,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5269,11 +5774,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (17)
+      value: GameArena (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5331,11 +5840,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena (26)
+      value: GameArena (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5395,9 +5908,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5457,9 +5974,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5519,9 +6040,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5581,9 +6106,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5643,9 +6172,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5705,9 +6238,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5767,9 +6304,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5829,9 +6370,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameArena (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5889,10 +6434,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
-      value: GameArena
+      value: GameArena (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: randomPos
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
@@ -5942,10 +6491,18 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5022602860645237092, guid: c28399cd8e648524191261ad3d58e054, type: 3}
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: debugger
+      value: 
+      objectReference: {fileID: 416405372}
+    - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: rewardThreshold
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194838370677, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive

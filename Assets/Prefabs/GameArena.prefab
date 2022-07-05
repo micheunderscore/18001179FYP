@@ -1363,22 +1363,11 @@ MonoBehaviour:
   distanceMod: 0.01
   tagged: 
   serveReward: 0
-  randomPos: 0
+  randomPos: 1
   playerOne: {fileID: 3410226382199209528}
   playerTwo: {fileID: 4388117778755735299}
   matOne: {fileID: 2100000, guid: 0a39addd95a21e94582b46ba85873cf5, type: 2}
   matTwo: {fileID: 2100000, guid: f71e1187721e450439f2f725235d0d1f, type: 2}
-  debug:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
 --- !u!1 &3405650194410515769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,9 +1474,10 @@ MonoBehaviour:
   mouseInputY: 0
   xInput: 0
   zInput: 0
-  rewardThreshold: 150
+  rewardThreshold: 0
   crouchInput: 0
   jumpInput: 0
+  printDebug: 0
   gameState: {fileID: 3405650194369017066}
   targetTransform: {fileID: 4326333103893604595}
 --- !u!114 &3405650194410515748
@@ -1504,7 +1494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 15
-    NumStackedVectorObservations: 1
+    NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3
       BranchSizes: 
@@ -1515,7 +1505,7 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: TagAgent
+  m_BehaviorName: TagAgentPlus
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1

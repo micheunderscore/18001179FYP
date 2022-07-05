@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
@@ -7,16 +8,29 @@ using Unity.MLAgents.Sensors;
 
 public class AgentController : Agent {
     public float mouseInputX, mouseInputY, xInput, zInput, rewardThreshold;
-    public bool crouchInput, jumpInput;
+    public bool crouchInput, jumpInput, printDebug;
+    private int id;
+    private Debugger debugger;
     [SerializeField] private GameManager gameState;
     [SerializeField] private Transform targetTransform;
 
+    public void Start() {
+        debugger = transform.root.GetComponentInChildren<Debugger>();
+
+        id = 0;
+        int.TryParse(Regex.Match(transform.parent.name, @"\d+").Value, out id);
+        id += 1;
+    }
 
     public void FixedUpdate() {
         float distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
         bool isTagged = gameState.tagged == transform.tag;
 
-        gameState.debug[0] = $"{transform.name} Rewards: {GetCumulativeReward()}";
+        debugger.meanBank.Add(GetCumulativeReward());
+
+        if (debugger != null && printDebug) {
+            debugger.update($"{id.ToString("D2")}", $"{transform.name} Rewards: {GetCumulativeReward()}");
+        }
 
         // Debug.Log($"Served Reward? : {gameState.serveReward}");
         // Reset sides and give head start
@@ -32,7 +46,7 @@ public class AgentController : Agent {
             // gameState.debug[1] = $"Reward : {(distance * (isTagged ? -1f : +1f) * gameState.distanceMod)}";
         }
 
-        if (GetCumulativeReward() > rewardThreshold) EndEpisode();
+        if ((rewardThreshold != 0f) && (GetCumulativeReward() > rewardThreshold)) EndEpisode();
     }
 
     public override void OnEpisodeBegin() {
@@ -61,7 +75,6 @@ public class AgentController : Agent {
         // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall") {
             SetReward(-gameState.punishAmt);
-            gameState.ResetFloor();
             EndEpisode();
         }
     }
