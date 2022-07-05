@@ -58,11 +58,13 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnTheOtherTriggerEnterMethod(Collider other) {
-        // Debug.Log($"{other.tag} entered the trigger!");
+        // Debug.Log($"{other.name} entered the trigger!");
         if (other.tag != tagged) {
-            // TODO: Freeze the recently tagged person for 2 seconds
             tagged = other.tag;
             serveReward = true;
+            if (other.TryGetComponent<PlayerMovement>(out PlayerMovement targetScript)) {
+                targetScript.freeze();
+            }
         }
     }
 

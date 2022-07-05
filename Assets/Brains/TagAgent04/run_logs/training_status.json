@@ -1,0 +1,48 @@
+{
+    "MPTagAgent": {
+        "checkpoints": [
+            {
+                "steps": 499870,
+                "file_path": "results\\TagAgent04\\MPTagAgent\\MPTagAgent-499870.onnx",
+                "reward": 23.36355895225448,
+                "creation_time": 1657031419.2330754,
+                "auxillary_file_paths": [
+                    "results\\TagAgent04\\MPTagAgent\\MPTagAgent-499870.pt"
+                ]
+            },
+            {
+                "steps": 999890,
+                "file_path": "results\\TagAgent04\\MPTagAgent\\MPTagAgent-999890.onnx",
+                "reward": -51.136576080322264,
+                "creation_time": 1657031954.8207664,
+                "auxillary_file_paths": [
+                    "results\\TagAgent04\\MPTagAgent\\MPTagAgent-999890.pt"
+                ]
+            },
+            {
+                "steps": 1458515,
+                "file_path": "results\\TagAgent04\\MPTagAgent\\MPTagAgent-1458515.onnx",
+                "reward": -11.555495722909992,
+                "creation_time": 1657032462.0817485,
+                "auxillary_file_paths": [
+                    "results\\TagAgent04\\MPTagAgent\\MPTagAgent-1458515.pt"
+                ]
+            }
+        ],
+        "elo": -260.43538570785535,
+        "final_checkpoint": {
+            "steps": 1458515,
+            "file_path": "results\\TagAgent04\\MPTagAgent.onnx",
+            "reward": -11.555495722909992,
+            "creation_time": 1657032462.0817485,
+            "auxillary_file_paths": [
+                "results\\TagAgent04\\MPTagAgent\\MPTagAgent-1458515.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

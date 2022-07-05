@@ -2,58 +2,58 @@
     "TagAgentPlus": {
         "checkpoints": [
             {
-                "steps": 6999790,
-                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-6999790.onnx",
-                "reward": 461.28352813720704,
-                "creation_time": 1657012633.9991744,
+                "steps": 15999891,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-15999891.onnx",
+                "reward": 369.63923743111746,
+                "creation_time": 1657026605.134556,
                 "auxillary_file_paths": [
-                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-6999790.pt"
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-15999891.pt"
                 ]
             },
             {
-                "steps": 7499519,
-                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7499519.onnx",
-                "reward": 376.2093663215637,
-                "creation_time": 1657013049.670822,
+                "steps": 16499812,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-16499812.onnx",
+                "reward": 400.8054684725675,
+                "creation_time": 1657026950.051614,
                 "auxillary_file_paths": [
-                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7499519.pt"
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-16499812.pt"
                 ]
             },
             {
-                "steps": 7999851,
-                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7999851.onnx",
-                "reward": 478.79625302269346,
-                "creation_time": 1657013464.794714,
+                "steps": 16999844,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-16999844.onnx",
+                "reward": 351.1486358642578,
+                "creation_time": 1657027300.2249722,
                 "auxillary_file_paths": [
-                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-7999851.pt"
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-16999844.pt"
                 ]
             },
             {
-                "steps": 8499749,
-                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8499749.onnx",
-                "reward": 438.14429297814,
-                "creation_time": 1657013888.3731499,
+                "steps": 17499858,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-17499858.onnx",
+                "reward": 383.08750915527344,
+                "creation_time": 1657027645.2802167,
                 "auxillary_file_paths": [
-                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8499749.pt"
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-17499858.pt"
                 ]
             },
             {
-                "steps": 8565898,
-                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.onnx",
-                "reward": 452.4314662388393,
-                "creation_time": 1657013954.5540903,
+                "steps": 17928543,
+                "file_path": "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-17928543.onnx",
+                "reward": 403.2485744142995,
+                "creation_time": 1657027956.2033021,
                 "auxillary_file_paths": [
-                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.pt"
+                    "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-17928543.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 8565898,
+            "steps": 17928543,
             "file_path": "results\\TagAgent02\\TagAgentPlus.onnx",
-            "reward": 452.4314662388393,
-            "creation_time": 1657013954.5540903,
+            "reward": 403.2485744142995,
+            "creation_time": 1657027956.2033021,
             "auxillary_file_paths": [
-                "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-8565898.pt"
+                "results\\TagAgent02\\TagAgentPlus\\TagAgentPlus-17928543.pt"
             ]
         }
     },
