@@ -812,7 +812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &430502745
 Transform:
   m_ObjectHideFlags: 0
@@ -2877,7 +2877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1480325448
 Transform:
   m_ObjectHideFlags: 0
@@ -4292,6 +4292,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 316715891852357059, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: printDebug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2891870765934683028, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4303,6 +4307,10 @@ PrefabInstance:
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: serveReward.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_RootOrder
@@ -4351,22 +4359,18 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 52595cd0322555a4fbe28155079086d7, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 2b72607ca44b22742b9d033834a8f6f7, type: 3}
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: debugger
       value: 
       objectReference: {fileID: 416405372}
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: rewardThreshold
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3405650194410515768, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: frozenDelay
-      value: 2
+      propertyPath: printDebug
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194838370677, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
@@ -4376,17 +4380,13 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6528089995246871702, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: frozenDelay
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 52595cd0322555a4fbe28155079086d7, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 2b72607ca44b22742b9d033834a8f6f7, type: 3}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}

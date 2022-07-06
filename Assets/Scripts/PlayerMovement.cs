@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour {
     public float xRotation;
     private float mouseX, mouseY, charHeight;
     private Vector3 move, velocity;
-    [SerializeField] private bool isGronded, jumped, frozen;
+    [SerializeField] private bool isGronded, jumped;
+    public bool frozen;
     private CharacterController controller;
     [SerializeField] LayerMask grondMask;
     [SerializeField] private Transform playerCamera, grondCheck;
@@ -43,8 +44,6 @@ public class PlayerMovement : MonoBehaviour {
             velocity.y += gravity * gravMod * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
-            // TODO: Implement freezing delay
-
             // Looking ==============================================================================================
             mouseX = _playerController.mouseInputX * mouseSens;
             mouseY = _playerController.mouseInputY * mouseSens * -1f;
@@ -72,7 +71,6 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     public void freeze() {
-        Debug.Log("FROZEN!");
         frozen = true;
     }
 

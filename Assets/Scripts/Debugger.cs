@@ -7,17 +7,21 @@ public class Debugger : MonoBehaviour {
     public List<string> debug = new List<string>();
     public List<float> meanBank = new List<float>();
 
-    public void update(string id, string msg) {
+    public void Start() {
+        update("00", $"Mean Results = (0) 0", true);
+    }
+
+    public void update(string id, string msg, bool byId = false) {
         int index = debug.FindIndex(a => a.Substring(0, 2).Contains(id));
         if (index != -1) {
-            debug[int.Parse(id)] = $"{id} - {msg}";
+            debug[int.Parse($"{(byId ? id : index)}")] = $"{id} - {msg}";
         } else {
             debug.Add($"{id} - {msg}");
         }
     }
 
     public void FixedUpdate() {
-        update("00", $"Mean Results = ({meanBank.Count}) {Queryable.Average(meanBank.AsQueryable())}");
+        update("00", $"Mean Results = ({meanBank.Count}) {Queryable.Average(meanBank.AsQueryable())}", true);
         meanBank.Clear();
     }
 

@@ -1005,7 +1005,7 @@ MonoBehaviour:
   speed: 10
   jumpHeight: 4
   jumpDelay: 1
-  frozenDelay: 0
+  frozenDelay: 2
   mouseSens: 200
   crouchMod: 0.25
   crouchHeight: 0.6
@@ -1024,12 +1024,11 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 1000
+  MaxStep: 0
   mouseInputX: 0
   mouseInputY: 0
   xInput: 0
   zInput: 0
-  rewardThreshold: 0
   crouchInput: 0
   jumpInput: 0
   printDebug: 0
@@ -1048,7 +1047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 15
+    VectorObservationSize: 16
     NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3
@@ -1060,7 +1059,7 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: MPTagAgent
+  m_BehaviorName: OldMPTagAgent
   TeamId: 1
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -1679,8 +1678,9 @@ MonoBehaviour:
   rewardAmt: 100
   punishAmt: 100
   distanceMod: 0.01
+  rewardThreshold: 150
+  serveReward: 0000
   tagged: 
-  serveReward: 0
   randomPos: 0
   playerOne: {fileID: 3410226382199209528}
   playerTwo: {fileID: 4237228267470452036}
@@ -1770,7 +1770,7 @@ MonoBehaviour:
   speed: 10
   jumpHeight: 4
   jumpDelay: 1
-  frozenDelay: 0
+  frozenDelay: 2
   mouseSens: 200
   crouchMod: 0.25
   crouchHeight: 0.6
@@ -1789,12 +1789,11 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 2500
+  MaxStep: 0
   mouseInputX: 0
   mouseInputY: 0
   xInput: 0
   zInput: 0
-  rewardThreshold: 0
   crouchInput: 0
   jumpInput: 0
   printDebug: 0
@@ -1813,8 +1812,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 15
-    NumStackedVectorObservations: 2
+    VectorObservationSize: 16
+    NumStackedVectorObservations: 3
     m_ActionSpec:
       m_NumContinuousActions: 3
       BranchSizes: 
@@ -1825,7 +1824,7 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: MPTagAgent
+  m_BehaviorName: OldMPTagAgent
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1

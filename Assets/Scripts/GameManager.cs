@@ -5,10 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     public GameObject[] players;
     public MeshRenderer floor;
-    public float arenaSize, rewardAmt, punishAmt, distanceMod;
+    public float arenaSize, rewardAmt, punishAmt, distanceMod, rewardThreshold;
     private Vector3[] startPos = { Vector3.zero, Vector3.zero };
+    public bool[] serveReward;
     public string tagged;
-    public bool serveReward = false, randomPos = false;
+    public bool randomPos = false;
     public OnTriggerEnterEvent playerOne, playerTwo;
     private PlayerMovement p1Control, p2Control;
     public Material matOne, matTwo;
@@ -61,14 +62,14 @@ public class GameManager : MonoBehaviour {
         // Debug.Log($"{other.name} entered the trigger!");
         if (other.tag != tagged) {
             tagged = other.tag;
-            serveReward = true;
+            serveReward = new bool[] { true, true };
             if (other.TryGetComponent<PlayerMovement>(out PlayerMovement targetScript)) {
                 targetScript.freeze();
             }
         }
     }
 
-    public void ServedReward() {
-        serveReward = false;
+    public void ServedReward(int id) {
+        serveReward[id] = false;
     }
 }
