@@ -1,24 +1,24 @@
 {
     "OldMPTagAgent": {
-        "elo": -4.935742140970915,
+        "elo": -8.738038094732435,
         "checkpoints": [
             {
-                "steps": 4112,
-                "file_path": "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-4112.onnx",
-                "reward": -100.0,
-                "creation_time": 1657082347.8974166,
+                "steps": 25189,
+                "file_path": "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-25189.onnx",
+                "reward": -175.13190390846947,
+                "creation_time": 1657082935.83734,
                 "auxillary_file_paths": [
-                    "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-4112.pt"
+                    "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-25189.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 4112,
+            "steps": 25189,
             "file_path": "results\\TagAgent04\\OldMPTagAgent.onnx",
-            "reward": -100.0,
-            "creation_time": 1657082347.8974166,
+            "reward": -175.13190390846947,
+            "creation_time": 1657082935.83734,
             "auxillary_file_paths": [
-                "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-4112.pt"
+                "results\\TagAgent04\\OldMPTagAgent\\OldMPTagAgent-25189.pt"
             ]
         }
     },
