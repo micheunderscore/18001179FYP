@@ -9,10 +9,11 @@ public class GameManager : MonoBehaviour {
     private Vector3[] startPos = { Vector3.zero, Vector3.zero };
     public bool[] serveReward;
     public string tagged;
-    public bool randomPos = false;
+    public bool randomPos = false, randomTagged = false;
     public OnTriggerEnterEvent playerOne, playerTwo;
     private PlayerMovement p1Control, p2Control;
     public Material matOne, matTwo;
+    private System.Random rand = new System.Random();
 
     public void OnEnable() {
         playerOne.onTriggerEnter.AddListener(OnTheOtherTriggerEnterMethod);
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void RestartGame() {
-        tagged = players[0].tag;
+        tagged = players[randomTagged ? rand.Next(2) : 0].tag;
         float spaceSize = arenaSize - 2;
         Vector3[] usedPos = { Vector3.zero, Vector3.zero };
 
