@@ -1058,7 +1058,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
+  MaxStep: 10000
   mouseInputX: 0
   mouseInputY: 0
   xInput: 0
@@ -1612,6 +1612,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a310fc01618e5af4199a655707e019dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeText: {fileID: 50325314921078567}
+  floor: {fileID: 3405650195022946787}
+  matOne: {fileID: 2100000, guid: 0a39addd95a21e94582b46ba85873cf5, type: 2}
+  matTwo: {fileID: 2100000, guid: f71e1187721e450439f2f725235d0d1f, type: 2}
+  playerOne: {fileID: 3410226382199209528}
+  playerTwo: {fileID: 4237228267470452036}
   players:
   - {fileID: 3405650194410515769}
   - {fileID: 2891870765934683028}
@@ -1621,8 +1627,9 @@ MonoBehaviour:
   - {fileID: 5218251249750884978}
   - {fileID: 2532039790785236563}
   - {fileID: 8876356237460945952}
-  floor: {fileID: 3405650195022946787}
-  arenaSize: 14.5
+  timeLimit: 5
+  serveReward: 0000
+  tagged: 
   rewardAmt: 0
   punishAmt: 10
   distanceMod: 0.1
@@ -1631,23 +1638,14 @@ MonoBehaviour:
   rewardThreshold: 10
   wallMultiplier: 50
   winReward: 100
-  tagTimer: 0
-  timeLimit: 10
-  serveReward: 0000
-  tagged: 
   randomPos: 1
   randomTagged: 1
   rDistance: 0
   rTime: 0
   wallDeath: 0
-  timerInvoked: 0
   endByTime: 1
   endByReward: 0
-  playerOne: {fileID: 3410226382199209528}
-  playerTwo: {fileID: 4237228267470452036}
-  matOne: {fileID: 2100000, guid: 0a39addd95a21e94582b46ba85873cf5, type: 2}
-  matTwo: {fileID: 2100000, guid: f71e1187721e450439f2f725235d0d1f, type: 2}
-  timeText: {fileID: 50325314921078567}
+  tagTimer: 0
 --- !u!1 &3405650194410515769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,7 +1752,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
+  MaxStep: 10000
   mouseInputX: 0
   mouseInputY: 0
   xInput: 0
