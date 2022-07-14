@@ -5,9 +5,13 @@ using UnityEngine;
 using TMPro;
 
 public class GameManager : MonoBehaviour {
+    public TMP_Text timeText;
+    public MeshRenderer floor;
+    public Material matOne, matTwo;
+    public OnTriggerEnterEvent playerOne, playerTwo;
+    private PlayerMovement p1Control, p2Control;
     public GameObject[] players;
     public Transform[] spawns;
-    public MeshRenderer floor;
     public int timeLimit = 10;
     [HideInInspector]
     public bool[] serveReward;
@@ -15,10 +19,6 @@ public class GameManager : MonoBehaviour {
     public string tagged;
     public float rewardAmt, punishAmt, distanceMod = 0.1f, timeVal = 0.001f, timeMod = 2f, rewardThreshold, wallMultiplier, winReward = 0f;
     public bool randomPos = false, randomTagged = false, rDistance = false, rTime = false, wallDeath = true, endByTime = false, endByReward = false;
-    public OnTriggerEnterEvent playerOne, playerTwo;
-    private PlayerMovement p1Control, p2Control;
-    public Material matOne, matTwo;
-    public TMP_Text timeText;
     [HideInInspector]
     public int tagTimer = 0;
     private Vector3[] startPos = { Vector3.zero, Vector3.zero };
