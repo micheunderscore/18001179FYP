@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using Unity.MLAgents;
@@ -7,7 +6,7 @@ using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 
 public class AgentController : Agent {
-    public float mouseInputX, mouseInputY, xInput, zInput;
+    public float mouseInputX, mouseInputY, xInput, zInput, tagTimer;
     public bool crouchInput, jumpInput, printDebug;
     private int id, playerId;
     private Debugger debugger;
@@ -39,6 +38,7 @@ public class AgentController : Agent {
         // Debug.Log($"Served Reward? : {gameState.serveReward}");
         // Reset sides and give head start
         if (gameState.serveReward[playerId]) {
+            tagTimer = 0f;
             float rewardReset = -GetCumulativeReward();
             float rewardSet = !isTagged ? +gameState.rewardAmt : -gameState.punishAmt;
             AddReward(rewardReset + rewardSet);
@@ -46,11 +46,30 @@ public class AgentController : Agent {
             gameState.ServedReward(playerId);
         } else {
             // Reward/Punishment distribution
-            AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
+            // Distance from each agent
+            if (gameState.rDistance) {
+                AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
+            }
+            // Time from tagged
+            if (gameState.rTime) {
+                tagTimer += gameState.timeVal;
+                AddReward((float)Math.Pow(tagTimer, gameState.timeMod) * (isTagged ? -1f : +1f));
+            }
             // gameState.debug[1] = $"Reward : {(distance * (isTagged ? -1f : +1f) * gameState.distanceMod)}";
         }
 
-        if ((gameState.rewardThreshold != 0f) && (GetCumulativeReward() > gameState.rewardThreshold)) EndEpisode();
+        if (gameState.endByReward) {
+            if ((gameState.rewardThreshold != 0f) && (GetCumulativeReward() > gameState.rewardThreshold)) {
+                EndEpisode();
+            };
+        }
+
+        if (gameState.endByTime) {
+            if (gameState.tagTimer == gameState.timeLimit) {
+                AddReward(isTagged ? 0f : gameState.winReward);
+                EndEpisode();
+            }
+        }
     }
 
     public override void OnEpisodeBegin() {
@@ -78,8 +97,9 @@ public class AgentController : Agent {
 
     public void OnControllerColliderHit(ControllerColliderHit other) {
         // Debug.Log($"{transform.tag} touched {other.transform.tag}");
-        if (other.transform.tag == "Wall") {
-            SetReward(-gameState.punishAmt);
+        if (other.transform.tag == "Wall" && gameState.wallDeath) {
+            float rewardReset = -GetCumulativeReward();
+            SetReward(rewardReset + (-gameState.punishAmt * gameState.wallMultiplier));
             EndEpisode();
         }
     }

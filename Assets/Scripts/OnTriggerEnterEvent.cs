@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class OnTriggerEnterEvent : MonoBehaviour {
     public UnityEvent<Collider> onTriggerEnter;
-    public void OnTriggerEnter(Collider col) {
+    public void OnTriggerStay(Collider col) {
         if (onTriggerEnter != null && col.tag != transform.tag) onTriggerEnter.Invoke(col);
     }
 }

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
+    public GameManager gameState;
     public float xRotation;
     private float mouseX, mouseY, charHeight;
     private Vector3 move, velocity;
     [SerializeField] private bool isGronded, jumped;
-    public bool frozen;
+    public bool frozen, invokedFrozen;
     private CharacterController controller;
+    [SerializeField] private CapsuleCollider hands;
     [SerializeField] LayerMask grondMask;
     [SerializeField] private Transform playerCamera, grondCheck;
     // INPUTS
@@ -30,9 +32,12 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Update() {
-        if (frozen) {
+        hands.enabled = !frozen && gameState.tagged == transform.tag;
+
+        if (frozen && !invokedFrozen) {
+            invokedFrozen = true;
             Invoke("unFreeze", frozenDelay);
-        } else {
+        } else if (!frozen) {
             // GROND CHECK ==========================================================================================
             isGronded = Physics.CheckSphere(grondCheck.position, grondDist, grondMask);
 
@@ -76,6 +81,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private void unFreeze() {
         frozen = false;
+        invokedFrozen = false;
     }
 
     private void allowJump() {

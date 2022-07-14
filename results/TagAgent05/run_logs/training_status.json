@@ -2,41 +2,32 @@
     "OldMPTagAgent": {
         "checkpoints": [
             {
-                "steps": 499990,
-                "file_path": "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-499990.onnx",
-                "reward": -157.5749314252068,
-                "creation_time": 1657097428.246251,
+                "steps": 499917,
+                "file_path": "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-499917.onnx",
+                "reward": -95.5649403266187,
+                "creation_time": 1657122134.0728202,
                 "auxillary_file_paths": [
-                    "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-499990.pt"
+                    "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-499917.pt"
                 ]
             },
             {
-                "steps": 999669,
-                "file_path": "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-999669.onnx",
-                "reward": -9.263519153260349,
-                "creation_time": 1657097936.1825252,
+                "steps": 699759,
+                "file_path": "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-699759.onnx",
+                "reward": -92.89333407084148,
+                "creation_time": 1657122385.2878025,
                 "auxillary_file_paths": [
-                    "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-999669.pt"
-                ]
-            },
-            {
-                "steps": 1447749,
-                "file_path": "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-1447749.onnx",
-                "reward": -79.13614765335532,
-                "creation_time": 1657098528.9505782,
-                "auxillary_file_paths": [
-                    "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-1447749.pt"
+                    "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-699759.pt"
                 ]
             }
         ],
-        "elo": -84.74208320826479,
+        "elo": -134.76686702344185,
         "final_checkpoint": {
-            "steps": 1447749,
+            "steps": 699759,
             "file_path": "results\\TagAgent05\\OldMPTagAgent.onnx",
-            "reward": -79.13614765335532,
-            "creation_time": 1657098528.9505782,
+            "reward": -92.89333407084148,
+            "creation_time": 1657122385.2878025,
             "auxillary_file_paths": [
-                "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-1447749.pt"
+                "results\\TagAgent05\\OldMPTagAgent\\OldMPTagAgent-699759.pt"
             ]
         }
     },

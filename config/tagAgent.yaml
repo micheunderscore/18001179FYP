@@ -1,9 +1,9 @@
 behaviors:
-  OldMPTagAgent:
+  MPTagAgent:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 2048
-      buffer_size: 20480
+      batch_size: 128
+      buffer_size: 1024
       learning_rate: 0.0003
       beta: 0.005
       epsilon: 0.2
@@ -15,6 +15,10 @@ behaviors:
       hidden_units: 512
       num_layers: 4
       vis_encode_type: simple
+      memory:
+        use_recurrent: true
+        sequence_length: 64
+        memory_size: 256
     reward_signals:
       extrinsic:
         gamma: 0.99
@@ -25,8 +29,8 @@ behaviors:
         encoding_size: 256
         learning_rate: 0.0003
     keep_checkpoints: 5
-    max_steps: 10000000
-    time_horizon: 1000
+    max_steps: 5000000
+    time_horizon: 64
     summary_freq: 10000
     threaded: false
     self_play:
