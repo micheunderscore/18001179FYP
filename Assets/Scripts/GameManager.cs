@@ -12,18 +12,18 @@ public class GameManager : MonoBehaviour {
     private PlayerMovement p1Control, p2Control;
     public GameObject[] players;
     public Transform[] spawns;
-    public int timeLimit = 10;
     [HideInInspector]
     public bool[] serveReward;
     public bool[] timeTick;
     [HideInInspector]
     public string tagged;
+    public int timeLimit = 10, gameTimeLimit = 0;
     public float rewardAmt, punishAmt, distanceMod = 0.1f, timeVal = 0.001f, timeMod = 2f, rewardThreshold, wallMultiplier, winReward = 0f;
-    public bool randomPos = false, randomTagged = false, rDistance = false, rTime = false, wallDeath = true, endByTime = false, endByReward = false;
+    public bool randomPos = false, randomTagged = false, rDistance = false, rTime = false, wallDeath = true, endByTime = false, endByReward = false, endByTotalTime = false;
     [HideInInspector]
-    public int tagTimer = 0;
+    public int tagTimer = 0, gameTimer = 0;
     private Vector3[] startPos = { Vector3.zero, Vector3.zero };
-    private bool timerInvoked = false;
+    private bool timerInvoked = false, gameInvoked = false;
     private System.Random rand = new System.Random();
     private Debugger debugger;
 
@@ -51,6 +51,12 @@ public class GameManager : MonoBehaviour {
             Invoke("InvokeTimer", 1);
         }
 
+        if (!gameInvoked) {
+            gameInvoked = true;
+            gameTimer++;
+            Invoke("InvokeGameTick", 1);
+        }
+
         if (tagged == players[0].tag) {
             floor.material = matOne;
         } else if (tagged == players[1].tag) {
@@ -59,6 +65,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void RestartGame() {
+        gameTimer = 0;
         tagTimer = 0;
         tagged = players[randomTagged ? rand.Next(2) : 0].tag;
         serveReward = new bool[] { true, true };
@@ -73,7 +80,7 @@ public class GameManager : MonoBehaviour {
                 do {
                     spawn = Random.Range(0, spawns.Length);
                 } while (selectedSpawns.Contains(spawn));
-                usedPos[i] = spawns[spawn].position;
+                usedPos[i] = spawns[spawn].localPosition;
                 players[i].transform.localRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
                 selectedSpawns[i] = spawn;
             }
@@ -106,6 +113,10 @@ public class GameManager : MonoBehaviour {
 
     public void InvokeTimer() {
         timerInvoked = false;
+    }
+
+    public void InvokeGameTick() {
+        gameInvoked = false;
     }
 
     public void ServedReward(int id) {

@@ -1,0 +1,66 @@
+{
+    "MPTagAgent": {
+        "checkpoints": [
+            {
+                "steps": 8499520,
+                "file_path": "results\\TagAgent14\\MPTagAgent\\MPTagAgent-8499520.onnx",
+                "reward": -3.121212121212121,
+                "creation_time": 1657894630.9155982,
+                "auxillary_file_paths": [
+                    "results\\TagAgent14\\MPTagAgent\\MPTagAgent-8499520.pt"
+                ]
+            },
+            {
+                "steps": 8999239,
+                "file_path": "results\\TagAgent14\\MPTagAgent\\MPTagAgent-8999239.onnx",
+                "reward": -1.9375,
+                "creation_time": 1657895287.5958502,
+                "auxillary_file_paths": [
+                    "results\\TagAgent14\\MPTagAgent\\MPTagAgent-8999239.pt"
+                ]
+            },
+            {
+                "steps": 9499632,
+                "file_path": "results\\TagAgent14\\MPTagAgent\\MPTagAgent-9499632.onnx",
+                "reward": -1.0909090909090908,
+                "creation_time": 1657895987.1180625,
+                "auxillary_file_paths": [
+                    "results\\TagAgent14\\MPTagAgent\\MPTagAgent-9499632.pt"
+                ]
+            },
+            {
+                "steps": 9999864,
+                "file_path": "results\\TagAgent14\\MPTagAgent\\MPTagAgent-9999864.onnx",
+                "reward": -1.435483870967742,
+                "creation_time": 1657896608.4074028,
+                "auxillary_file_paths": [
+                    "results\\TagAgent14\\MPTagAgent\\MPTagAgent-9999864.pt"
+                ]
+            },
+            {
+                "steps": 10014864,
+                "file_path": "results\\TagAgent14\\MPTagAgent\\MPTagAgent-10014864.onnx",
+                "reward": -1.435483870967742,
+                "creation_time": 1657896609.8313446,
+                "auxillary_file_paths": [
+                    "results\\TagAgent14\\MPTagAgent\\MPTagAgent-10014864.pt"
+                ]
+            }
+        ],
+        "elo": 2590.0590865771665,
+        "final_checkpoint": {
+            "steps": 10014864,
+            "file_path": "results\\TagAgent14\\MPTagAgent.onnx",
+            "reward": -1.435483870967742,
+            "creation_time": 1657896609.8313446,
+            "auxillary_file_paths": [
+                "results\\TagAgent14\\MPTagAgent\\MPTagAgent-10014864.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
