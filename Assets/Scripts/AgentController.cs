@@ -33,6 +33,7 @@ public class AgentController : Agent {
         if (debugger != null && printDebug) {
             debugger.update($"{(playerId + 1).ToString("D2")}", $"{transform.name} Rewards: {GetCumulativeReward()}");
             debugger.update($"{(playerId + 3).ToString("D2")}", $"{transform.name} = {isTagged}");
+            debugger.update("10", $"{distance}");
         }
 
         // Debug.Log($"Served Reward? : {gameState.serveReward}");
@@ -47,13 +48,15 @@ public class AgentController : Agent {
         } else {
             // Reward/Punishment distribution
             // Distance from each agent
-            if (gameState.rDistance) {
-                AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
-            }
-            // Time from tagged
-            if (gameState.rTime) {
-                tagTimer += gameState.timeVal;
-                AddReward((float)Math.Pow(tagTimer, gameState.timeMod) * (isTagged ? -1f : +1f));
+            if (gameState.timeTick[playerId]) {
+                if (gameState.rDistance) {
+                    AddReward(distance * (isTagged ? -1f : +1f) * gameState.distanceMod);
+                }
+                // Time from tagged
+                if (gameState.rTime) {
+                    AddReward(gameState.timeVal * gameState.timeMod * (isTagged ? -1f : +1f));
+                }
+                gameState.ServedTick(playerId);
             }
             // gameState.debug[1] = $"Reward : {(distance * (isTagged ? -1f : +1f) * gameState.distanceMod)}";
         }

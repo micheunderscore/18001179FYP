@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
     public int timeLimit = 10;
     [HideInInspector]
     public bool[] serveReward;
+    public bool[] timeTick;
     [HideInInspector]
     public string tagged;
     public float rewardAmt, punishAmt, distanceMod = 0.1f, timeVal = 0.001f, timeMod = 2f, rewardThreshold, wallMultiplier, winReward = 0f;
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour {
         if (!timerInvoked) {
             timerInvoked = true;
             tagTimer++;
+            timeTick = new bool[] { true, true };
             Invoke("InvokeTimer", 1);
         }
 
@@ -108,5 +110,9 @@ public class GameManager : MonoBehaviour {
 
     public void ServedReward(int id) {
         serveReward[id] = false;
+    }
+
+    public void ServedTick(int id) {
+        timeTick[id] = false;
     }
 }
