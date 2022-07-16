@@ -1,0 +1,66 @@
+{
+    "MPTagAgent": {
+        "checkpoints": [
+            {
+                "steps": 8499175,
+                "file_path": "results\\TagAgent16\\MPTagAgent\\MPTagAgent-8499175.onnx",
+                "reward": 0.65625,
+                "creation_time": 1657952355.5074646,
+                "auxillary_file_paths": [
+                    "results\\TagAgent16\\MPTagAgent\\MPTagAgent-8499175.pt"
+                ]
+            },
+            {
+                "steps": 8999563,
+                "file_path": "results\\TagAgent16\\MPTagAgent\\MPTagAgent-8999563.onnx",
+                "reward": 3.5428571428571427,
+                "creation_time": 1657952845.9390664,
+                "auxillary_file_paths": [
+                    "results\\TagAgent16\\MPTagAgent\\MPTagAgent-8999563.pt"
+                ]
+            },
+            {
+                "steps": 9499962,
+                "file_path": "results\\TagAgent16\\MPTagAgent\\MPTagAgent-9499962.onnx",
+                "reward": 3.4393939393939394,
+                "creation_time": 1657953464.1023548,
+                "auxillary_file_paths": [
+                    "results\\TagAgent16\\MPTagAgent\\MPTagAgent-9499962.pt"
+                ]
+            },
+            {
+                "steps": 9999211,
+                "file_path": "results\\TagAgent16\\MPTagAgent\\MPTagAgent-9999211.onnx",
+                "reward": 6.0,
+                "creation_time": 1657953972.0391905,
+                "auxillary_file_paths": [
+                    "results\\TagAgent16\\MPTagAgent\\MPTagAgent-9999211.pt"
+                ]
+            },
+            {
+                "steps": 10017211,
+                "file_path": "results\\TagAgent16\\MPTagAgent\\MPTagAgent-10017211.onnx",
+                "reward": 6.0,
+                "creation_time": 1657953973.3502364,
+                "auxillary_file_paths": [
+                    "results\\TagAgent16\\MPTagAgent\\MPTagAgent-10017211.pt"
+                ]
+            }
+        ],
+        "elo": 2426.416722418881,
+        "final_checkpoint": {
+            "steps": 10017211,
+            "file_path": "results\\TagAgent16\\MPTagAgent.onnx",
+            "reward": 6.0,
+            "creation_time": 1657953973.3502364,
+            "auxillary_file_paths": [
+                "results\\TagAgent16\\MPTagAgent\\MPTagAgent-10017211.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
