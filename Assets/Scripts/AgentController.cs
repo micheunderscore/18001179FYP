@@ -96,7 +96,7 @@ public class AgentController : Agent {
     }
 
     public override void OnActionReceived(ActionBuffers actions) {
-        mouseInputX = actions.ContinuousActions[0] * Time.deltaTime;
+        mouseInputX = actions.ContinuousActions[0];
         zInput = actions.ContinuousActions[1];
         xInput = actions.ContinuousActions[2];
         // mouseInputY = actions.ContinuousActions[3] * Time.deltaTime;
@@ -117,7 +117,7 @@ public class AgentController : Agent {
     public override void Heuristic(in ActionBuffers actionsOut) {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
         // ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
-        continuousActions[0] = Input.GetAxis("Mouse X") * Time.deltaTime;
+        continuousActions[0] = Input.GetAxis("Mouse X");
         continuousActions[1] = Input.GetAxisRaw("Vertical");
         continuousActions[2] = Input.GetAxisRaw("Horizontal");
         // continuousActions[3] = Input.GetAxis("Mouse Y");

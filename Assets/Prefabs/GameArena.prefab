@@ -1040,7 +1040,7 @@ MonoBehaviour:
   jumpHeight: 4
   jumpDelay: 1
   frozenDelay: 2
-  mouseSens: 2400
+  mouseSens: 1000
   crouchMod: 0.25
   crouchHeight: 0.6
 --- !u!114 &316715891852357059
@@ -1565,8 +1565,8 @@ MonoBehaviour:
   serveReward: 0000
   timeTick: 0000
   tagged: 
-  timeLimit: 10
-  gameTimeLimit: 30
+  timeLimit: 15
+  gameTimeLimit: 60
   rewardAmt: 1
   punishAmt: 10
   distanceMod: 0.01
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   jumpHeight: 4
   jumpDelay: 1
   frozenDelay: 2
-  mouseSens: 2400
+  mouseSens: 1000
   crouchMod: 0.25
   crouchHeight: 0.6
 --- !u!114 &3405650194410515749

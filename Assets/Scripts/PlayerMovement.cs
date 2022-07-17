@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour {
             controller.Move(velocity * Time.deltaTime);
 
             // Looking ==============================================================================================
-            mouseX = _playerController.mouseInputX * mouseSens;
+            mouseX = _playerController.mouseInputX * mouseSens * Time.deltaTime;
             mouseY = _playerController.mouseInputY * mouseSens * -1f;
 
             xRotation -= mouseY;
