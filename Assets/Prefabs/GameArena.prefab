@@ -1064,6 +1064,7 @@ MonoBehaviour:
   xInput: 0
   zInput: 0
   tagTimer: 0
+  distance: 0
   crouchInput: 0
   jumpInput: 0
   printDebug: 0
@@ -1082,7 +1083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 20
+    VectorObservationSize: 21
     NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3
@@ -1697,6 +1698,7 @@ MonoBehaviour:
   xInput: 0
   zInput: 0
   tagTimer: 0
+  distance: 0
   crouchInput: 0
   jumpInput: 0
   printDebug: 0
@@ -1715,7 +1717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 20
+    VectorObservationSize: 21
     NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3

@@ -28,7 +28,16 @@ public class AgentController : Agent {
         distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
         bool isTagged = gameState.tagged == transform.tag;
 
-        debugger.meanBank.Add(GetCumulativeReward());
+        switch (playerId) {
+            case 0:
+                debugger.meanBank1.Add(GetCumulativeReward());
+                break;
+            case 1:
+                debugger.meanBank2.Add(GetCumulativeReward());
+                break;
+            default:
+                break;
+        }
 
         if (debugger != null && printDebug) {
             debugger.update($"{(playerId + 1).ToString("D2")}", $"{transform.name} Rewards: {GetCumulativeReward()}");
