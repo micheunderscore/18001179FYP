@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour {
         gameTimer = 0;
         tagTimer = 0;
         tagged = players[randomTagged ? rand.Next(2) : 0].tag;
+        timeTick = new bool[] { false, false };
         serveReward = new bool[] { true, true };
 
         Vector3[] usedPos = { Vector3.zero, Vector3.zero };

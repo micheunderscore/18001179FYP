@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 16
+    VectorObservationSize: 20
     NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3
@@ -1574,7 +1574,7 @@ MonoBehaviour:
   timeMod: 1
   rewardThreshold: 10
   wallMultiplier: 10
-  winReward: 0
+  winReward: 15
   randomPos: 1
   randomTagged: 1
   rDistance: 0
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 16
+    VectorObservationSize: 20
     NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 3

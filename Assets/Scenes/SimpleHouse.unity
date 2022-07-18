@@ -485,7 +485,7 @@ PrefabInstance:
       objectReference: {fileID: 5022602860645237092, guid: f91762d8bbc14704583b75824c5e222a, type: 3}
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: debugger
@@ -982,7 +982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &430502745
 Transform:
   m_ObjectHideFlags: 0
@@ -3048,7 +3048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1480325448
 Transform:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 
 public class AgentController : Agent {
-    public float mouseInputX, mouseInputY, xInput, zInput, tagTimer;
+    public float mouseInputX, mouseInputY, xInput, zInput, tagTimer, distance = 0f;
     public bool crouchInput, jumpInput, printDebug;
     private int id, playerId;
     private Debugger debugger;
@@ -25,7 +25,7 @@ public class AgentController : Agent {
     }
 
     public void FixedUpdate() {
-        float distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
+        distance = Vector3.Distance(transform.localPosition, targetTransform.localPosition);
         bool isTagged = gameState.tagged == transform.tag;
 
         debugger.meanBank.Add(GetCumulativeReward());
@@ -87,6 +87,9 @@ public class AgentController : Agent {
     }
 
     public override void CollectObservations(VectorSensor sensor) {
+        // Player Distance
+        sensor.AddObservation(distance);
+
         // Player positions
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(transform.localRotation);
