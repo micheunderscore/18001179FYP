@@ -1568,17 +1568,17 @@ MonoBehaviour:
   timeLimit: 15
   gameTimeLimit: 60
   rewardAmt: 1
-  punishAmt: 10
+  punishAmt: 1
   distanceMod: 0.01
-  timeVal: 0.1
+  timeVal: 1
   timeMod: 1
   rewardThreshold: 10
   wallMultiplier: 10
-  winReward: 9
+  winReward: 0
   randomPos: 1
   randomTagged: 1
   rDistance: 0
-  rTime: 0
+  rTime: 1
   wallDeath: 0
   endByTime: 1
   endByReward: 0
