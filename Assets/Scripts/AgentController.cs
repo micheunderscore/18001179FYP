@@ -128,8 +128,9 @@ public class AgentController : Agent {
     public void OnControllerColliderHit(ControllerColliderHit other) {
         // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall" && gameState.wallDeath) {
+            gameState.SwitchTag(transform.tag);
             float rewardReset = -GetCumulativeReward();
-            SetReward(rewardReset + (-gameState.punishAmt * gameState.wallMultiplier));
+            AddReward(rewardReset + (-gameState.punishAmt * gameState.wallMultiplier));
             EndEpisode();
         }
     }
