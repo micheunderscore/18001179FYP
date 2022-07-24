@@ -96,9 +96,6 @@ public class AgentController : Agent {
     }
 
     public override void CollectObservations(VectorSensor sensor) {
-        // Player Distance
-        sensor.AddObservation(distance);
-
         // Player positions
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(transform.localRotation);
@@ -109,11 +106,14 @@ public class AgentController : Agent {
         sensor.AddObservation(gameState.tagged == transform.tag ? 1f : 0f);
         sensor.AddObservation(gameState.players[playerId].GetComponent<PlayerMovement>().frozen ? 1f : 0f);
 
-        // Timer
-        sensor.AddObservation(gameState.tagTimer);
-        sensor.AddObservation(gameState.timeLimit);
-        sensor.AddObservation(gameState.gameTimer);
-        sensor.AddObservation(gameState.gameTimeLimit);
+        // // Player Distance
+        // sensor.AddObservation(distance);
+
+        // // Timer
+        // sensor.AddObservation(gameState.tagTimer);
+        // sensor.AddObservation(gameState.timeLimit);
+        // sensor.AddObservation(gameState.gameTimer);
+        // sensor.AddObservation(gameState.gameTimeLimit);
     }
 
     public override void OnActionReceived(ActionBuffers actions) {

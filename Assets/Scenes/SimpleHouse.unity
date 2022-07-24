@@ -436,6 +436,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: endByTotalTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: serveReward.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -486,11 +490,7 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: e6926f6d1ee9cb84e983f17a36b7008e, type: 3}
-    - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: m_BehaviorType
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5022602860645237092, guid: f91762d8bbc14704583b75824c5e222a, type: 3}
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: debugger
       value: 
@@ -498,6 +498,10 @@ PrefabInstance:
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: printDebug
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194410515768, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: mouseSens
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194838370677, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
@@ -531,6 +535,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6528089995246871702, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: mouseSens
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 7866421603745961386, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
@@ -550,7 +558,7 @@ PrefabInstance:
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 409847e0581c3004c951d2411380183c, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: f91762d8bbc14704583b75824c5e222a, type: 3}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 1
@@ -4458,7 +4466,7 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: e385940b69c857f4e9622e7498466926, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 2
@@ -4522,7 +4530,7 @@ PrefabInstance:
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: e385940b69c857f4e9622e7498466926, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 2

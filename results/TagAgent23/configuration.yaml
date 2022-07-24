@@ -85,7 +85,7 @@ checkpoint_settings:
   initialize_from: TagAgent22
   load_model: false
   resume: false
-  force: false
+  force: true
   train_model: false
   inference: false
   results_dir: results
