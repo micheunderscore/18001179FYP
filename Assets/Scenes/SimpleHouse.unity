@@ -432,6 +432,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: timeLimit
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: endByTotalTime
       value: 0
       objectReference: {fileID: 0}

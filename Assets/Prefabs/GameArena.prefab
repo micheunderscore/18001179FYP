@@ -1565,8 +1565,8 @@ MonoBehaviour:
   serveReward: 0000
   timeTick: 0000
   tagged: 
-  timeLimit: 10
-  gameTimeLimit: 30
+  timeLimit: 15
+  gameTimeLimit: 60
   rewardAmt: 1
   punishAmt: 10
   distanceMod: 0.01
