@@ -5,9 +5,11 @@
 ## 📑 Description
 
 This is the official repository for my final year project titled:
+
 ```
 Adaptable Adversary Behavior For Game Of Tag Based On Player Behavior Using Machine Learning
 ```
+
 Project Supervisor: **Dr. Said Jadid Abdulkadir**
 <br/>
 
@@ -24,6 +26,7 @@ Project Supervisor: **Dr. Said Jadid Abdulkadir**
 
 - 0.0.1 - **_(HELLO WORLD!)_** Initial build
 - 0.0.2 - **(25/05/22)** Added player character & player movement scripts
+  _Further versioning documentation had been forgone due to shift in FYP deadline_
   <br/>
 
 ## 🚀 Quick Start
@@ -32,6 +35,7 @@ Project Supervisor: **Dr. Said Jadid Abdulkadir**
 
 - [Git](https://git-scm.com/downloads)
 - [Unity Hub + Unity](https://unity.com/download)
+- [Python](https://www.python.org/downloads/)
 
 ### Installment Pre-requisites
 
