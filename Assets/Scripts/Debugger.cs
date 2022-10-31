@@ -33,7 +33,7 @@ public class Debugger : MonoBehaviour {
     public void OnGUI() {
         GUI.Label(
             new Rect(
-                10,          // x, left offset
+                10,         // x, left offset
                 50,         // y, bottom offset
                 250f,       // width
                 500f        // height

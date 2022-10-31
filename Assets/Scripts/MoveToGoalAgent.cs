@@ -27,7 +27,6 @@ public class MoveToGoalAgent : Agent {
     }
 
     public void OnTriggerEnter(Collider other) {
-        // Debug.Log("HIT SOMETHING");
         if (other.TryGetComponent<Goal>(out Goal goal)) {
             SetReward(+1f);
             floorMeshRenderer.material = winMaterial;

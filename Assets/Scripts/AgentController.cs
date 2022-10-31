@@ -39,21 +39,21 @@ public class AgentController : Agent {
                 break;
         }
 
+        // DEBUGGER 
         if (debugger != null && printDebug) {
             debugger.update($"{(playerId + 1).ToString("D2")}", $"{transform.name} Rewards: {GetCumulativeReward()}");
             debugger.update($"{(playerId + 3).ToString("D2")}", $"{transform.name} = {isTagged}");
             debugger.update("10", $"{distance}");
         }
 
-        // Debug.Log($"Served Reward? : {gameState.serveReward}");
         // Reset sides and give head start
         if (gameState.serveReward[playerId]) {
             tagTimer = 0f;
             float rewardReset = -GetCumulativeReward();
             float rewardSet = !isTagged ? +gameState.rewardAmt : -gameState.punishAmt;
             AddReward(rewardReset + rewardSet);
-            // gameState.debug[2] = $"Spec Reward : {rewardReset} + {rewardSet}";
             gameState.ServedReward(playerId);
+            // gameState.debug[2] = $"Spec Reward : {rewardReset} + {rewardSet}";
         } else {
             // Reward/Punishment distribution
             // Distance from each agent
@@ -106,9 +106,11 @@ public class AgentController : Agent {
         sensor.AddObservation(gameState.tagged == transform.tag ? 1f : 0f);
         sensor.AddObservation(gameState.players[playerId].GetComponent<PlayerMovement>().frozen ? 1f : 0f);
 
+        // REMOVED: Uncomment to include player distance to be included in observations
         // // Player Distance
         // sensor.AddObservation(distance);
 
+        // REMOVED: Uncomment to include timer data to be included in observations
         // // Timer
         // sensor.AddObservation(gameState.tagTimer);
         // sensor.AddObservation(gameState.timeLimit);
@@ -120,13 +122,13 @@ public class AgentController : Agent {
         mouseInputX = actions.ContinuousActions[0];
         zInput = actions.ContinuousActions[1];
         xInput = actions.ContinuousActions[2];
+        // REMOVED: Uncomment to enable Y-axis look, crouching, or jumping
         // mouseInputY = actions.ContinuousActions[3] * Time.deltaTime;
         // crouchInput = actions.DiscreteActions[0] == 1;
         // jumpInput = actions.DiscreteActions[1] == 1;
     }
 
     public void OnControllerColliderHit(ControllerColliderHit other) {
-        // Debug.Log($"{transform.tag} touched {other.transform.tag}");
         if (other.transform.tag == "Wall" && gameState.wallDeath) {
             gameState.SwitchTag(transform.tag);
             float rewardReset = -GetCumulativeReward();
@@ -138,10 +140,14 @@ public class AgentController : Agent {
     // Heuristics testing
     public override void Heuristic(in ActionBuffers actionsOut) {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
+        // REMOVED: Uncomment to initialize discrete actions
         // ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
+
         continuousActions[0] = Input.GetAxis("Mouse X");
         continuousActions[1] = Input.GetAxisRaw("Vertical");
         continuousActions[2] = Input.GetAxisRaw("Horizontal");
+
+        // REMOVED: Uncomment to enable Y-axis look, crouching, or jumping
         // continuousActions[3] = Input.GetAxis("Mouse Y");
         // discreteActions[0] = Input.GetButton("Crouch") ? 1 : 0;
         // discreteActions[1] = Input.GetButton("Jump") ? 1 : 0;
