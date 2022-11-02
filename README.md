@@ -36,6 +36,7 @@ Project Supervisor: **Dr. Said Jadid Abdulkadir**
 - [Git](https://git-scm.com/downloads)
 - [Unity Hub + Unity](https://unity.com/download)
 - [Python](https://www.python.org/downloads/)
+_Currently, I am setting up the venv requirements.txt so that third parties can run this project without having to install further deps._
 
 ### Installment Pre-requisites
 
