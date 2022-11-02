@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (16)
@@ -182,6 +186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &160853749 stripped
@@ -196,6 +204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (9)
@@ -246,6 +258,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -322,6 +338,107 @@ Transform:
   m_Father: {fileID: 1308684802}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250545226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250545227}
+  - component: {fileID: 250545230}
+  - component: {fileID: 250545229}
+  - component: {fileID: 250545228}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &250545227
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250545226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 428982831}
+  m_Father: {fileID: 430502745}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &250545228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250545226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &250545229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250545226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &250545230
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250545226}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &314029260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -329,6 +446,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (30)
@@ -381,6 +502,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &314029261 stripped
@@ -425,7 +550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Enabled
@@ -490,7 +615,11 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: f91762d8bbc14704583b75824c5e222a, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
+    - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_BehaviorType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194410515749, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: debugger
       value: 
@@ -505,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194838370677, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194838370678, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
@@ -539,26 +668,10 @@ PrefabInstance:
       propertyPath: mouseSens
       value: 500
       objectReference: {fileID: 0}
-    - target: {fileID: 7866421603745961386, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: m_NormalizedViewPortRect.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7866421603745961386, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: m_NormalizedViewPortRect.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7866421603745961386, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: m_NormalizedViewPortRect.width
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7866421603745961386, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
-      propertyPath: m_NormalizedViewPortRect.height
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: f91762d8bbc14704583b75824c5e222a, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 1
@@ -577,6 +690,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (25)
@@ -629,6 +746,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &349593244 stripped
@@ -643,6 +764,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (44)
@@ -695,6 +820,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &360369397 stripped
@@ -709,6 +838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (12)
@@ -759,6 +892,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -815,7 +952,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0.07
-    width: 0.5
+    width: 0.9
     height: 0.87
   near clip plane: 0.3
   far clip plane: 1000
@@ -827,7 +964,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 6e524d8d021223648bd2060579e19f6b, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -868,7 +1005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &416405372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,6 +1036,79 @@ Transform:
   m_Father: {fileID: 1308684802}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &428982830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428982831}
+  - component: {fileID: 428982833}
+  - component: {fileID: 428982832}
+  m_Layer: 5
+  m_Name: Minimap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &428982831
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428982830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250545227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -710, y: 217.7}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &428982832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428982830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 6e524d8d021223648bd2060579e19f6b, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0.09
+    width: 0.9
+    height: 0.85
+--- !u!222 &428982833
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428982830}
+  m_CullTransparentMesh: 1
 --- !u!1 &430502744
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +1141,7 @@ Transform:
   - {fileID: 376177121}
   - {fileID: 513067153}
   - {fileID: 347395138}
+  - {fileID: 250545227}
   m_Father: {fileID: 1308684802}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -941,6 +1152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (24)
@@ -993,6 +1208,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &460041629 stripped
@@ -1007,6 +1226,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (10)
@@ -1059,6 +1282,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &484544710 stripped
@@ -1078,6 +1305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (42)
@@ -1130,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &530606783 stripped
@@ -1144,6 +1379,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (20)
@@ -1196,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &579008508 stripped
@@ -1210,6 +1453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (7)
@@ -1262,6 +1509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &628750461 stripped
@@ -1276,6 +1527,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (11)
@@ -1326,6 +1581,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1538,6 +1797,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (13)
@@ -1590,6 +1853,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &754400242 stripped
@@ -1604,6 +1871,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (3)
@@ -1654,6 +1925,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1746,6 +2021,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (6)
@@ -1798,6 +2077,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &898507695 stripped
@@ -1812,6 +2095,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (34)
@@ -1864,6 +2151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &965689373 stripped
@@ -1878,6 +2169,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (17)
@@ -1930,6 +2225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1017015220 stripped
@@ -1944,6 +2243,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (40)
@@ -1996,6 +2299,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1017606962 stripped
@@ -2010,6 +2317,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (19)
@@ -2060,6 +2371,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2182,6 +2497,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (22)
@@ -2234,6 +2553,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1111956984 stripped
@@ -2248,6 +2571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (39)
@@ -2300,6 +2627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1123987855 stripped
@@ -2314,6 +2645,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (18)
@@ -2366,6 +2701,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1160354822 stripped
@@ -2380,6 +2719,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (4)
@@ -2432,6 +2775,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1205513954 stripped
@@ -2446,6 +2793,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (47)
@@ -2498,6 +2849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1229288848 stripped
@@ -2512,6 +2867,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena
@@ -2564,6 +2923,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1238559026 stripped
@@ -2578,6 +2941,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (33)
@@ -2630,6 +2997,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1271949795 stripped
@@ -2644,6 +3015,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (26)
@@ -2694,6 +3069,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017067, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2906,6 +3285,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (31)
@@ -2958,6 +3341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1367052640 stripped
@@ -3005,6 +3392,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (35)
@@ -3057,6 +3448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1506739647 stripped
@@ -3071,6 +3466,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (45)
@@ -3123,6 +3522,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1519863250 stripped
@@ -3137,6 +3540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (29)
@@ -3189,6 +3596,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1524649986 stripped
@@ -3203,6 +3614,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (5)
@@ -3255,6 +3670,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1560013253 stripped
@@ -3269,6 +3688,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (38)
@@ -3321,6 +3744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1578616566 stripped
@@ -3335,6 +3762,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (14)
@@ -3387,6 +3818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1669011423 stripped
@@ -3401,6 +3836,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (27)
@@ -3453,6 +3892,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1674622510 stripped
@@ -3467,6 +3910,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (21)
@@ -3519,6 +3966,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1682153891 stripped
@@ -3533,6 +3984,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (37)
@@ -3585,6 +4040,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1764975565 stripped
@@ -3599,6 +4058,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (2)
@@ -3651,6 +4114,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1776144691 stripped
@@ -3665,6 +4132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (1)
@@ -3717,6 +4188,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1785442309 stripped
@@ -3731,6 +4206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (15)
@@ -3783,6 +4262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1790670649 stripped
@@ -3797,6 +4280,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (36)
@@ -3849,6 +4336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1854585633 stripped
@@ -3863,6 +4354,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (28)
@@ -3915,6 +4410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1856775119 stripped
@@ -3929,6 +4428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (48)
@@ -3981,6 +4484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1877219544 stripped
@@ -3995,6 +4502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (32)
@@ -4047,6 +4558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &1891141636 stripped
@@ -4061,6 +4576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (43)
@@ -4113,6 +4632,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &2012297946 stripped
@@ -4127,6 +4650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (46)
@@ -4179,6 +4706,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &2088929135 stripped
@@ -4193,6 +4724,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (23)
@@ -4245,6 +4780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &2104230147 stripped
@@ -4259,6 +4798,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (8)
@@ -4311,6 +4854,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &2131527389 stripped
@@ -4325,6 +4872,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097216234}
     m_Modifications:
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Name
       value: GameArena (41)
@@ -4377,6 +4928,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
 --- !u!4 &2147032407 stripped
@@ -4399,6 +4954,10 @@ PrefabInstance:
       propertyPath: printDebug
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1299293281989348257, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1643589264288278220, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4413,7 +4972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017064, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3405650194369017066, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: endByTotalTime
@@ -4466,7 +5025,7 @@ PrefabInstance:
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 409847e0581c3004c951d2411380183c, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
     - target: {fileID: 3405650194410515748, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 2
@@ -4503,6 +5062,10 @@ PrefabInstance:
       propertyPath: m_NormalizedViewPortRect.height
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3405650194838370679, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6528089995246871702, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4530,7 +5093,7 @@ PrefabInstance:
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 409847e0581c3004c951d2411380183c, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: eb4d3fb79a8d0d849acdde00fb68e26a, type: 3}
     - target: {fileID: 7921592488091607898, guid: 6fc298fc9f381e04ba1754e0e5c79457, type: 3}
       propertyPath: m_BehaviorType
       value: 2

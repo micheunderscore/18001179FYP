@@ -30,10 +30,10 @@ public class AgentController : Agent {
 
         switch (playerId) {
             case 0:
-                debugger.meanBank1.Add(GetCumulativeReward());
+                if (debugger != null) debugger.meanBank1.Add(GetCumulativeReward());
                 break;
             case 1:
-                debugger.meanBank2.Add(GetCumulativeReward());
+                if (debugger != null) debugger.meanBank2.Add(GetCumulativeReward());
                 break;
             default:
                 break;
